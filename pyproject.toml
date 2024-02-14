@@ -1,0 +1,17 @@
+[project]
+
+name = "EFREI-2026-S6-L3-F-Transverse-1_ia"
+version = "0.0.1"
+description = "Artificial intelligence Recognizing Biological Issues from X-Ray Images"
+authors = [
+    {name = "EFREI-2026-S6-L3-F-Transverse-1"},
+]
+
+dependencies = [
+    "torch>=2.2.0",
+]
+requires-python = "==3.12.*"
+readme = "docs/README.md"
+
+[tool.pdm]
+distribution = false
